@@ -108,6 +108,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* About section styles */
 .about {
     border-radius: 10px;
@@ -135,4 +139,25 @@ main {
     color: #474747;
     font-weight: 700;
     margin-top: 1px;
+}
+
+/* Skills related styles */
+
+#what-i-do-description {
+    padding: 30px 130px;
+}
+
+.skils-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
 }
