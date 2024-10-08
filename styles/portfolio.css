@@ -17,6 +17,20 @@ body {
     padding: 15px 35px;
 }
 
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -85,4 +99,40 @@ nav a {
 
 .banner-img {
     width: 500px;
+}
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* About section styles */
+.about {
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    padding: 135px;
+    margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.info-description {
+    color: #474747;
+    font-weight: 700;
+    margin-top: 1px;
 }
